@@ -1,8 +1,13 @@
+html{
+    margin: 0;
+    height: 100%;
+}
 body {
     background-color: #25292f;
     width: 95%;
     margin: auto;
     color: black;
+    background: linear-gradient(45deg, #1e5799 0%, #7f4d78 0%, #453c6c 100%);
 }
 
 div.container {
@@ -63,7 +68,6 @@ img.icon {
     width: 64px;
     float: right;
 }
-
 
 img.profile {
     border-radius: 85px;
