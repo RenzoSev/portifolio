@@ -1,5 +1,9 @@
-html {
+* {
     margin: 0;
+    padding: 0;
+}
+
+html {
     height: 100%;
 }
 
@@ -12,11 +16,11 @@ body {
     line-height: 1.5;
 }
 
-div.container {
+div#container {
     background-color: #282a36;
     padding: 15px;
-    width: 800px;
-    height: 550px;
+    max-width: 700px;
+    height: 500px;
     margin: auto;
     margin-top: 55px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.288);
@@ -25,8 +29,20 @@ div.container {
     border-style: solid;
     border-color: #15161c;
     border-width: 5px;
+    margin-top: 110px;
 }
-
+div#profile{
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+}
+div#text{
+    margin-top: 110px;
+}
+div#description{
+    margin-top: 50px;
+}
 h1,
 h2,
 h3,
@@ -59,7 +75,7 @@ h4.right {
 
 h3.description {
     margin-top: 33px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 200;
@@ -73,9 +89,10 @@ img.icon {
 }
 
 img.profile {
-    border-radius: 95.2px;
+    border-radius: 100%;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.288);
     border-style: solid;
     border-color: #bd93f9;
     border-width: 4px;
+    width: 178px;
 }
