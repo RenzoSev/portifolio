@@ -20,6 +20,10 @@ a {
     text-decoration: none;
     color: #e9e9f4;
 }
+h2 a {
+    color: #2fc18c;
+    transition: all 0.2s;
+}
 
 div#container {
     background-color: #282a36;
@@ -124,6 +128,11 @@ button {
 
 button:hover {
     background-color: #bd93f9;
-    border-color: #e9e9f4;
-    padding: 16px 33px;
+    border-color: #463c6c;
+}
+button a:hover{
+    color: #282a36;
+}
+h2 a:hover {
+    color: #26916a;
 }
