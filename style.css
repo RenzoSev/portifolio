@@ -16,6 +16,11 @@ body {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+    color: #e9e9f4;
+}
+
 div#container {
     background-color: #282a36;
     padding: 15px;
@@ -31,18 +36,35 @@ div#container {
     border-width: 5px;
     margin-top: 110px;
 }
-div#profile{
+
+div#profile {
     position: absolute;
     top: 16px;
     left: 0;
     right: 0;
 }
-div#text{
+
+div#text {
     margin-top: 110px;
 }
-div#description{
+
+div#description {
     margin-top: 50px;
 }
+
+div#button {
+    margin-top: 128px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+div#contatos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 28px;
+}
+
 h1,
 h2,
 h3,
@@ -63,15 +85,7 @@ h2.me {
     line-height: 1.5;
 }
 
-h4.left {
-    float: left;
-    width: 200px
-}
 
-h4.right {
-    float: left;
-    width: 200px;
-}
 
 h3.description {
     margin-top: 33px;
@@ -85,7 +99,6 @@ h3.description {
 img.icon {
     height: 64px;
     width: 64px;
-    float: right;
 }
 
 img.profile {
@@ -95,4 +108,22 @@ img.profile {
     border-color: #bd93f9;
     border-width: 4px;
     width: 178px;
+}
+
+button {
+    display: inline-block;
+    background-color: #15161c;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: #e9e9f4;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #bd93f9;
+    border-color: #e9e9f4;
+    padding: 16px 33px;
 }
