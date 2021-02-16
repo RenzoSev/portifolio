@@ -77,7 +77,6 @@ h2 {
     right: 0;
     color: white;
     letter-spacing: 2.5px;
-    font-family: 'Karla', sans-serif;
     font-size: 15px;
 }
 
@@ -96,7 +95,7 @@ button {
 a {
     text-decoration: none;
     color: #3e4057;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 p a{
     color: white;
