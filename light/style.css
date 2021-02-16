@@ -105,11 +105,12 @@ a:hover {
 }
 
 a:active {
-    color: rgb(182, 182, 182);
+    color: rgb(202, 202, 202);
 }
 
 button:hover {
     background-color: #c0c7cd;
+    border: 0.16em solid #c78064;
 }
 
 a:hover {
