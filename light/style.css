@@ -12,8 +12,10 @@ body {
 
 h1 {
     color: #c78064;
-    font-size: 33px;
+    font-size: 35px;
+    margin-top: 5px;
 }
+
 h2 {
     font-size: 18px;
     margin-top: 18px;
@@ -22,6 +24,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 #bg-image {
     background: url("https://www.stuffside.com/wp-content/uploads/2018/10/Mountains-Minimal-Artwork-5K-Wallpaper-5120x2880.jpg?x76452");
     background-position: center;
@@ -61,8 +64,41 @@ h2 {
     right: 0;
     padding-top: 9px;
 }
-#profile_picture{
+
+#profile_picture {
     max-width: 104px;
     border-radius: 100%;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.226);
+}
+
+button {
+    display: inline-block;
+    background: none;
+    border: 0.16em solid rgb(68, 68, 68);
+    border-radius: 20px;
+    color: #000000;
+    margin-top: 40px;
+    padding: 6px 18px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #3e4057;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #c0c7cd;
+}
+button a:hover {
+    color: #252735;
+}
+button a:active{
+    color: #171820;
+}
+
+button:active {
+    background-color: #8c9297;
 }
