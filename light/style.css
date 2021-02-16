@@ -70,7 +70,8 @@ h2 {
     border-radius: 100%;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.226);
 }
-#bottom{
+
+#bottom {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -94,26 +95,28 @@ button {
 
 a {
     text-decoration: none;
-    color: #3e4057;
+    color: #c78064;
     font-family: 'Karla', sans-serif;
-}
-p a{
-    color: white;
     transition: all 0.3s;
 }
-p a:hover{
-    color:rgb(219, 219, 219);
+
+a:hover {
+    color: rgb(219, 219, 219);
 }
-p a:active{
-    color:rgb(182, 182, 182);
+
+a:active {
+    color: rgb(182, 182, 182);
 }
+
 button:hover {
     background-color: #c0c7cd;
 }
-button a:hover {
+
+a:hover {
     color: #252735;
 }
-button a:active{
+
+a:active {
     color: #171820;
 }
 
