@@ -6,12 +6,12 @@
 body {
     line-height: 1.7;
     letter-spacing: 1px;
-    color: #3e4057;
+    color: #d2cfde;
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    color: #c78064;
+    color: #ed5181;
     font-size: 35px;
     margin-top: 5px;
 }
@@ -19,14 +19,14 @@ h1 {
 h2 {
     font-size: 18px;
     margin-top: 18px;
-    border-bottom: #c0c7cd 2px solid;
-    border-top: #c0c7cd 2px solid;
+    border-bottom: #18191a 2px solid;
+    border-top: #18191a 2px solid;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #bg-image {
-    background: url("https://www.stuffside.com/wp-content/uploads/2018/10/Mountains-Minimal-Artwork-5K-Wallpaper-5120x2880.jpg?x76452");
+    background: url("https://www.wallpapertip.com/wmimgs/2-22162_dark-minimalist-desktop-backgrounds.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ h2 {
 }
 
 #box {
-    background-color: #ffffffb6;
+    background-color: #242526e5;
     padding: 15px;
     max-width: 60vh;
     height: 55vh;
@@ -75,7 +75,6 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    color: white;
     letter-spacing: 2.5px;
     font-size: 15px;
 }
@@ -83,9 +82,8 @@ h2 {
 button {
     display: inline-block;
     background: none;
-    border: 0.16em solid rgb(68, 68, 68);
+    border: 0.16em solid #18191a;
     border-radius: 20px;
-    color: #000000;
     margin-top: 12%;
     padding: 6px 18px;
     font-size: 16px;
@@ -94,29 +92,25 @@ button {
 
 a {
     text-decoration: none;
-    color: #3e4057;
+    color: #ed5181;
     font-family: 'Karla', sans-serif;
 }
-p a{
-    color: white;
+a{
+    color: #ed5181;
     transition: all 0.3s;
 }
-p a:hover{
+a:hover{
     color:rgb(219, 219, 219);
 }
-p a:active{
+a:active{
     color:rgb(182, 182, 182);
 }
 button:hover {
-    background-color: #c0c7cd;
-}
-button a:hover {
-    color: #252735;
-}
-button a:active{
-    color: #171820;
+    background-color: #18191a;
+    border: 0.16em solid #ed5181;
 }
 
 button:active {
-    background-color: #8c9297;
+    background-color: #080808;
+    border: 0.16em solid #ce466f;
 }
