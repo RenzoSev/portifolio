@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #25292f;
+    width: 95%;
+    margin: auto;
+    color: #e9e9f4;
+    background: linear-gradient(45deg, #1e5799 0%, #7f4d78 0%, #453c6c 100%);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #e9e9f4;
+}
+h2 a {
+    color: #2fc18c;
+    transition: all 0.2s;
+}
+
+div#container {
+    background-color: #282a36;
+    padding: 15px;
+    max-width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 55px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.288);
+    border-radius: 8px;
+    text-align: center;
+    border-style: solid;
+    border-color: #15161c;
+    border-width: 5px;
+    margin-top: 110px;
+}
+
+div#profile {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+}
+
+div#text {
+    margin-top: 110px;
+}
+
+div#description {
+    margin-top: 50px;
+}
+
+div#button {
+    margin-top: 128px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+div#contatos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 28px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1.name {
+    font-size: 37px;
+    letter-spacing: 2px;
+    color: #bd93f9;
+}
+
+h2.me {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+h3.description {
+    margin-top: 33px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+img.icon {
+    height: 64px;
+    width: 64px;
+}
+
+img.profile {
+    border-radius: 100%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.288);
+    border-style: solid;
+    border-color: #bd93f9;
+    border-width: 4px;
+    width: 178px;
+}
+
+button {
+    display: inline-block;
+    background-color: #15161c;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: #e9e9f4;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #bd93f9;
+    border-color: #463c6c;
+}
+button a:hover{
+    color: #282a36;
+}
+h2 a:hover {
+    color: #26916a;
+}
