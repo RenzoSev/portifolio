@@ -3,8 +3,17 @@
     padding: 0;
 }
 
+body {
+    line-height: 1.5;
+    color: #3e4057;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #c78064;
+}
 #bg-image {
-    background: url("https://www.teahub.io/photos/full/26-262632_2560x1440-the-witcher-3-minimalist-wallpapers-high-minimalist.jpg");
+    background: url("https://www.stuffside.com/wp-content/uploads/2018/10/Mountains-Minimal-Artwork-5K-Wallpaper-5120x2880.jpg?x76452");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
