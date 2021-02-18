@@ -23,6 +23,10 @@ ul {
     list-style: none;
 }
 
+span {
+    font-weight: bold;
+}
+
 /*  nav */
 
 .topbar-bg {
@@ -37,6 +41,10 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.topbar li a {
+    color: #e9e9f4;
 }
 
 .profile-picture-box {
@@ -99,26 +107,43 @@ ul {
 
 }
 
-.resume-bg{
-    background-color: #242526e5;
+.resume-bg {
+    background-color: #2425269f;
     max-width: 960px;
     margin: 0 auto;
-    padding: 8px 0;
-    border: 2px solid white;
+    margin-top: 100px;
+
 }
 
 .resume {
     display: block;
     text-align: center;
-    
-}
+    padding: 10px 0;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.resume:hover {
+    border: 2px solid #ed5181;
+}
 .resume h1 {
     color: white;
     font-size: 4em;
 }
 
 .resume p {
-    color: white;
+    color: #e9e9f4;
     font-family: "Roboto Mono", monospace;
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin: 10px 0;
+    padding: 0.60em 1.25em;
+    transition: all 0.5s;
+    flex: 2 1 100px;
+}
+
+.resume p:hover {
+    background: #1112139f;
+    color: #ed5181;
 }
