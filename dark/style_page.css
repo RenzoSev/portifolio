@@ -102,7 +102,7 @@ ul {
 .resume-bg{
     background-color: #242526e5;
     max-width: 960px;
-    margin: 15px auto;
+    margin: 0 auto;
     padding: 8px 0;
     border: 2px solid white;
 }
