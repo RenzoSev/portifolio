@@ -102,6 +102,7 @@ span {
     position: absolute;
     width: 100%;
     min-height: 100%;
+    height: auto;
     top: 0px;
     z-index: -1;
 
@@ -111,7 +112,7 @@ span {
     background-color: #2425269f;
     max-width: 960px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 140px;
 
 }
 
@@ -120,16 +121,22 @@ span {
     text-align: center;
     padding: 10px 0;
     border: 2px solid white;
-    display: flex;
-    flex-wrap: wrap;
+    transition: all 0.5s;
 
 }
+
 .resume:hover {
     border: 2px solid #ed5181;
 }
+
 .resume h1 {
     color: white;
     font-size: 4em;
+    transition: all 0.5s;
+}
+
+.resume h1:hover {
+    color: #ed5181;
 }
 
 .resume p {
@@ -140,7 +147,6 @@ span {
     margin: 10px 0;
     padding: 0.60em 1.25em;
     transition: all 0.5s;
-    flex: 2 1 100px;
 }
 
 .resume p:hover {
