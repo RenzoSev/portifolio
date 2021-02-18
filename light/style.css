@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.7;
+    letter-spacing: 1px;
+    color: #3e4057;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #c78064;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 18px;
+    border-bottom: #c0c7cd 2px solid;
+    border-top: #c0c7cd 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#bg-image {
+    background: url("https://www.stuffside.com/wp-content/uploads/2018/10/Mountains-Minimal-Artwork-5K-Wallpaper-5120x2880.jpg?x76452");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#blur {
+    background: rgba(255, 255, 255, 0.041);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100%;
+
+}
+
+#box {
+    background-color: #ffffffb6;
+    padding: 15px;
+    max-width: 60vh;
+    height: 55vh;
+    margin: auto;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.63);
+    border-radius: 18%;
+    text-align: center;
+    border-width: 5px;
+    margin-top: 130px;
+}
+
+#profile {
+    left: 0;
+    right: 0;
+    padding-top: 9px;
+}
+
+#profile_picture {
+    max-width: 104px;
+    border-radius: 100%;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.226);
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+}
+
+button {
+    display: inline-block;
+    background: none;
+    border: 0.16em solid rgb(68, 68, 68);
+    border-radius: 20px;
+    color: #000000;
+    margin-top: 12%;
+    padding: 6px 18px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #c78064;
+    font-family: 'Karla', sans-serif;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: rgb(219, 219, 219);
+}
+
+a:active {
+    color: rgb(202, 202, 202);
+}
+
+button:hover {
+    background-color: #c0c7cd;
+    border: 0.16em solid #c78064;
+}
+
+a:hover {
+    color: #252735;
+}
+
+a:active {
+    color: #171820;
+}
+
+button:active {
+    background-color: #8c9297;
+}
