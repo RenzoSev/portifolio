@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/*  nav */
+
+.topbar-bg {
+    background: #24252633;
+}
+
+.topbar {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-picture-box {
+    margin: 9px 15px;
+    float: left;
+}
+
+.profile-picture {
+    max-width: 2.5em;
+    border-radius: 100%;
+    border: 2px solid white;
+    transition: all 0.2s;
+
+}
+
+.profile-picture:hover {
+    border: 2px solid #ed5181;
+}
+
+.menu-logo {
+    margin: 0 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.topbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1px;
+}
+
+.topbar a {
+    font-size: 1em;
+    display: block;
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+.menu-logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    color: #ed5181;
+}
+
+/* Resume */
+
+.img-bg {
+
+    background: url("https://www.wallpapertip.com/wmimgs/2-22162_dark-minimalist-desktop-backgrounds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0px;
+    z-index: -1;
+
+}
+
+.resume-bg{
+    background-color: #242526e5;
+    max-width: 960px;
+    margin: 15px auto;
+    padding: 8px 0;
+    border: 2px solid white;
+}
+
+.resume {
+    display: block;
+    text-align: center;
+    
+}
+
+.resume h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.resume p {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
