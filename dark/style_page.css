@@ -23,6 +23,10 @@ ul {
     list-style: none;
 }
 
+span {
+    font-weight: bold;
+}
+
 /*  nav */
 
 .topbar-bg {
@@ -37,6 +41,10 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.topbar li a {
+    color: #e9e9f4;
 }
 
 .profile-picture-box {
@@ -72,6 +80,7 @@ ul {
     display: block;
     padding: 8px;
     transition: all 0.3s;
+    border-bottom: 2px solid #24252633;
 }
 
 .menu-logo a {
@@ -81,6 +90,7 @@ ul {
 
 .topbar a:hover {
     color: #ed5181;
+    border-bottom: 2px solid #ed5181;
 }
 
 /* Resume */
@@ -94,31 +104,62 @@ ul {
     position: absolute;
     width: 100%;
     min-height: 100%;
+    height: auto;
     top: 0px;
-    z-index: -1;
+    z-index: -2;
 
 }
+.blur {
+    position: absolute;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.041);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100%;
+}
 
-.resume-bg{
-    background-color: #242526e5;
+.resume-bg {
+    background-color: #2425269f;
     max-width: 960px;
-    margin: 15px auto;
-    padding: 8px 0;
-    border: 2px solid white;
+    margin: 0 auto;
+    margin-top: 140px;
+
 }
 
 .resume {
     display: block;
     text-align: center;
-    
+    padding: 10px 0;
+    border: 2px solid white;
+    transition: all 0.5s;
+
+}
+
+.resume:hover {
+    border: 2px solid #ed5181;
 }
 
 .resume h1 {
     color: white;
     font-size: 4em;
+    transition: all 0.5s;
+}
+
+.resume h1:hover {
+    color: #ed5181;
 }
 
 .resume p {
-    color: white;
+    color: #e9e9f4;
     font-family: "Roboto Mono", monospace;
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin: 10px 0;
+    padding: 0.60em 1.25em;
+    transition: all 0.5s;
+}
+
+.resume p:hover {
+    background: #1112139f;
+    color: #ed5181;
 }
