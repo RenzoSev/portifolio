@@ -80,7 +80,7 @@ span {
     display: block;
     padding: 8px;
     transition: all 0.3s;
-    border-bottom: 2px solid #24252633;
+    border-bottom: 2px solid #24252600;
 }
 
 .menu-logo a {
@@ -91,6 +91,10 @@ span {
 .topbar a:hover {
     color: #ed5181;
     border-bottom: 2px solid #ed5181;
+}
+.topbar a:active {
+    color: #c44369;
+    border-bottom: 2px solid #c44369;
 }
 
 /* Resume */
@@ -114,10 +118,11 @@ span {
     z-index: -1;
     background: rgba(255, 255, 255, 0.041);
     backdrop-filter: blur(10px);
-    height: 100vh;
+    min-height: 100%;
     width: 100%;
+    height: auto;
+    top: 0px;
 }
-
 .resume-bg {
     background-color: #2425269f;
     max-width: 960px;
