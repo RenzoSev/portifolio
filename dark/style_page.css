@@ -140,13 +140,15 @@ span {
     display: block;
     text-align: center;
     padding: 10px 0;
-    border: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
     transition: all 0.5s;
 
 }
 
 .resume:hover {
-    border: 2px solid #ed5181;
+    border-bottom: 2px solid #ed5181;
+    border-top: 2px solid #ed5181;
     background-color: #0e0e0e9f;
 }
 
