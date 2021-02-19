@@ -30,9 +30,14 @@ span {
 /*  nav */
 
 .topbar-bg {
-    background: #24252633;
+    background: #24252615;
+    border-bottom: 2px solid #ed518000;
+    transition: all 0.3s;
 }
-
+.topbar-bg:hover{
+    background: #2425265b;
+    border-bottom: 2px solid #ed5180dc;
+}
 .topbar {
     max-width: 960px;
     margin: 0 auto;
@@ -142,6 +147,7 @@ span {
 
 .resume:hover {
     border: 2px solid #ed5181;
+    background-color: #0e0e0e9f;
 }
 
 .resume h1 {
