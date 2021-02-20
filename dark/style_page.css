@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #222222;
@@ -27,17 +31,24 @@ span {
     font-weight: bold;
 }
 
+.container {
+    min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /*  nav */
 
 .topbar-bg {
-    background: #24252615;
+    background: #000;
     border-bottom: 2px solid #ed518000;
     transition: all 0.3s;
 }
 
 .topbar-bg:hover {
-    background: #2425265b;
-    border-bottom: 2px solid #ed5180dc;
+    background: #0e0e0e;
 }
 
 .topbar {
@@ -59,19 +70,7 @@ span {
     float: left;
 }
 
-.profile-picture {
-    max-width: 2.5em;
-    border-radius: 100%;
-    border: 2px solid white;
-    transition: all 0.2s;
-
-}
-
-.profile-picture:hover {
-    border: 2px solid #ed5181;
-}
-
-.menu-logo {
+.topbar-name {
     margin: 0 1px;
     font-family: 'Roboto Mono', monospace;
 }
@@ -90,7 +89,7 @@ span {
     border-bottom: 2px solid #24252600;
 }
 
-.menu-logo a {
+.topbar-name a {
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -106,20 +105,13 @@ span {
 }
 
 /* Resume */
-
-.img-bg {
-
-    background: url("https://www.wallpapertip.com/wmimgs/2-22162_dark-minimalist-desktop-backgrounds.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    height: auto;
-    top: 0px;
-    z-index: -1;
-
+#main {
+    background-image: url("https://www.wallpapertip.com/wmimgs/2-22162_dark-minimalist-desktop-backgrounds.jpg");
+	background-size: cover;
+	background-position: top center;
+    top: 0;
+	position: relative;
+	z-index: 1;
 }
 
 .blur {
@@ -133,12 +125,10 @@ span {
     top: 0px;
 }
 
-.resume {
+ .resume { 
     background-color: #2425269f;
     max-width: 1300px;
     margin: 0 auto;
-    
-    margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -182,6 +172,18 @@ span {
 
 /* Competências */
 
-.competencias {
+#competencias {
+    background: tomato;
+}
+
+/* Projetos */
+
+#projetos {
+    background: blueviolet;
+}
+
+/* Contatos*/
+
+#contatos {
     background: tomato;
 }
