@@ -34,10 +34,12 @@ span {
     border-bottom: 2px solid #ed518000;
     transition: all 0.3s;
 }
-.topbar-bg:hover{
+
+.topbar-bg:hover {
     background: #2425265b;
     border-bottom: 2px solid #ed5180dc;
 }
+
 .topbar {
     max-width: 960px;
     margin: 0 auto;
@@ -97,6 +99,7 @@ span {
     color: #ed5181;
     border-bottom: 2px solid #ed5181;
 }
+
 .topbar a:active {
     color: #c44369;
     border-bottom: 2px solid #c44369;
@@ -115,9 +118,10 @@ span {
     min-height: 100%;
     height: auto;
     top: 0px;
-    z-index: -2;
+    z-index: -1;
 
 }
+
 .blur {
     position: absolute;
     z-index: -1;
@@ -128,22 +132,21 @@ span {
     height: auto;
     top: 0px;
 }
-.resume-bg {
-    background-color: #2425269f;
-    max-width: 960px;
-    margin: 0 auto;
-    margin-top: 140px;
-
-}
 
 .resume {
-    display: block;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #2425269f;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
-    transition: all 0.5s;
-
+    transition: all 0.6s;
 }
 
 .resume:hover {
@@ -175,4 +178,10 @@ span {
 .resume p:hover {
     background: #1112139f;
     color: #ed5181;
+}
+
+/* Competências */
+
+.competencias {
+    background: tomato;
 }
