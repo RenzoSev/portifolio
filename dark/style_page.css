@@ -365,5 +365,41 @@ span {
 /* Contatos*/
 
 #contatos {
-    background: tomato;
+    background: #15161c;
+}
+.contatos-container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+.text-contacts {
+    color: #ed5181;
+    margin-top: 8px;
+}
+.text-description {
+    color: #e9e9f4;
+    margin-top: 8px;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.img-contact {
+    max-width: 32px;
+    margin: 20px 15px;
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: rgb(145, 145, 145);
 }
