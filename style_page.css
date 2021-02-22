@@ -367,6 +367,7 @@ span {
 #contatos {
     background: #15161c;
 }
+
 .contatos-container {
     max-width: 960px;
     margin: 0 auto;
@@ -375,10 +376,12 @@ span {
     color: white;
     font-family: "Roboto Mono", monospace;
 }
+
 .text-contacts {
     color: #ed5181;
     margin-top: 8px;
 }
+
 .text-description {
     color: #e9e9f4;
     margin-top: 8px;
@@ -398,6 +401,7 @@ span {
     max-width: 34px;
     margin: 20px 15px;
 }
+
 .copyright {
     margin-top: 20px;
     font-size: 0.8em;
