@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+/*  nav */
+#topbar-position {
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: auto;
+}
+
+.topbar-bg {
+    background: rgba(0, 0, 0, 0.425);
+    border-bottom: 2px solid #ed518000;
+    transition: all 0.3s;
+}
+
+.topbar-bg:hover {
+    background: #0e0e0e;
+}
+
+.topbar {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar li a {
+    color: #e9e9f4;
+}
+
+.profile-picture-box {
+    margin: 9px 15px;
+    float: left;
+}
+
+.topbar-name {
+    margin: 0 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.topbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1px;
+}
+
+.topbar a {
+    font-size: 1em;
+    display: block;
+    padding: 8px;
+    transition: all 0.3s;
+    border-bottom: 2px solid #24252600;
+}
+
+.topbar-name a {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    color: #ed5181;
+    border-bottom: 2px solid #ed5181;
+}
+
+.topbar a:active {
+    color: #c44369;
+    border-bottom: 2px solid #c44369;
+}
+
+/* Main */
+#main {
+    background-image: url("https://www.wallpapertip.com/wmimgs/2-22162_dark-minimalist-desktop-backgrounds.jpg");
+    background-size: cover;
+    background-position: top center;
+    top: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.blur {
+    position: absolute;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.041);
+    backdrop-filter: blur(10px);
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    top: 0px;
+}
+
+.main-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container div {
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 20px 20px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.main-container h1 {
+    color: white;
+    font-size: 4em;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+
+.main-container span {
+    color: #ed5181;
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+.main-container span:hover {
+    color: white;
+}
+
+
+
+/* Resume */
+#resume {
+    background: #15161c;
+}
+
+.resume-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume {
+    background-color: #2425269f;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    transition: all 0.6s;
+
+}
+
+.resume:hover {
+    border-bottom: 2px solid #ed5181;
+    border-top: 2px solid #ed5181;
+    background-color: #0e0e0e9f;
+}
+
+.resume h1 {
+    color: white;
+    font-size: 4em;
+    transition: all 0.5s;
+}
+
+.resume h1:hover {
+    color: #ed5181;
+}
+
+.resume p {
+    color: #e9e9f4;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin: 10px 0;
+    padding: 0.60em 1.25em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.resume p:hover {
+    background: #1112139f;
+    color: #ed5181;
+}
+
+/* Competências */
+#competencias {
+    background: #282a36;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.competencias-container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.competencias {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.text-competencias {
+    font-size: 3em;
+    color: white;
+    padding: 20px 0px;
+}
+
+.text-front-end {
+    font-size: 2.5em;
+    font-family: "Roboto Mono", monospace;
+    color: #e9e9f4;
+    padding: 10px 0px;
+}
+
+.front-end {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    padding: 20px 40px;
+}
+
+.skill {
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 60px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    border-radius: 3%;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.63);
+    transition: all 0.5s;
+}
+
+.skill:hover {
+    box-shadow: 4px 10px 16px rgba(0, 0, 0, 0.856);
+    background: #ed5181;
+    border: 2px solid white;
+}
+
+.img-skill {
+    max-width: 128px;
+}
+
+.skill p {
+    color: #e9e9f4;
+    margin: 15px;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* Projetos */
+
+#projetos {
+    background: #282a36;
+}
+
+.projetos-container {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.text-projetos {
+    font-size: 3em;
+    color: white;
+    padding: 20px 0px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 1200px;
+    padding: 10px 0;
+}
+
+.project-image {
+    max-width: 100%;
+    margin-top: 60px;
+}
+
+.title-project {
+    color: white;
+    font-size: 2.5em;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+}
+
+.box-content {
+    max-width: 600px;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+.description-project {
+    font-size: 1.5em;
+    font-family: "Roboto Mono", monospace;
+    color: #e9e9f4;
+    margin-top: 10px;
+}
+
+.button-project {
+    width: 200px;
+    height: 40px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-project:hover {
+    border: 2px solid #ed5181;
+    background: #1112139f;
+}
+
+/* Contatos*/
+
+#contatos {
+    background: #15161c;
+}
+
+.contatos-container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+.text-contacts {
+    color: #ed5181;
+    margin-top: 8px;
+}
+
+.text-description {
+    color: #e9e9f4;
+    margin-top: 8px;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.img-contact {
+    max-width: 34px;
+    margin: 20px 15px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: rgb(145, 145, 145);
+}
